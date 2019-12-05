@@ -1,0 +1,236 @@
+html, body{
+ margin: 0;
+ padding: 0;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 25px;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+  .top-left {
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+header {
+  background-color: rgb(32, 101, 136);
+  background-image: url(images/buildings-and-billboard.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  position: relative;
+}
+
+.header-links{
+  color: white;
+  background-color: rgb(32, 101, 136);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo{
+  margin-top: 10px;
+  height: 60px;
+  margin-right: 20px
+}
+
+.header-links form button {
+  color: white;
+  background-color: rgb(32, 101, 136);
+  height: 58px;
+  width: 58px;
+  border-width: 0.5px;
+  border: solid;
+  border-color: gray;
+  
+  
+}
+
+.header-links form {
+  display: flex;
+  align-items: center;
+}
+
+.header-links form input {
+  background-color: rgb(31, 82, 111);
+  height: 50px;
+  width: 1000px;
+  border-width: 0.5px;
+  border: solid;
+  border-color: gray;
+  
+}
+
+.header-content{ 
+  color: white;
+  width: 30%;
+  margin: 300px 0px 15% 10%;
+  
+}
+
+.header-content form input {
+  background-color: rgb(240, 146, 51);
+  color: white;
+  margin: 15px 5px 5px;
+   padding: 8px 25px 12px;
+   border-radius: 20px; 
+}
+
+.header-ul {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.header-ul img {
+  height: 60px;
+  margin-right: 20px;
+ }
+
+ .header-ul li {
+  font-size: 1.3em;
+  list-style: none;
+  letter-spacing: 2px;
+  text-align: center;
+ }
+
+ .header-ul li a {
+  text-decoration: none;
+  color: white;
+ }
+
+ .orgs {
+  background-color: rgb(39, 53, 71);
+  color:white;
+ }
+
+ .orgs div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+ }
+
+ .orgs img{
+   height: 100%;
+ }
+
+ .caja {
+  font-size: 1em;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+ }
+
+ .ul-orgs li{
+   margin-top: 15px;
+ }
+
+ .form-orgs input{
+   color: white;
+   background-color: rgb(203, 56, 55);
+   margin: 15px 5px 5px;
+   padding: 8px 25px 12px;
+   border-radius: 20px; 
+ }
+
+ .form-orgs a{
+   color:white;
+   text-decoration: none;
+ }
+
+ .info-npm {
+   color: white;
+   background-color: rgb(39, 53, 71);
+   background-image: url(images/modified.png);
+   background-position: 0 0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 500px;
+   padding-top: 50px;
+   position: relative;
+   margin: 0 auto;
+   padding: 75px 0;
+ }
+
+ .info-npm article {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+ }
+
+ .info-npm .div2 form input{
+  color: white;
+  background-color: rgb(49, 68, 88);
+  margin: 15px 5px 5px 40%;
+  padding: 8px 25px 12px;
+  border-radius: 20px; 
+}
+
+.infodiv{
+  margin: 100px 100px -50px 100px;
+  width: 50%;
+}
+
+.caja2{
+  font-size: 1em;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+}
+
+.caja3{
+  font-size: 1.3em;
+  text-align: center;
+  box-sizing: border-box;
+  width: 15%;
+}
+
+.div5{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div5 a{
+  color: rgb(208, 74, 73)
+}
+
+
+.div4 {
+  text-align: center;
+}
